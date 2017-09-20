@@ -5,6 +5,9 @@ $(document).ready(function($) {
 
 	var windowHeight=$(window).height();
 
+	$('#bg-svg').width('100%');
+	$('#bg-svg').height(windowHeight);
+
 	$('#svg-section .building').on('mouseover', function(event) {
 
 		var path = $(this).find('.building-path').attr('d');
